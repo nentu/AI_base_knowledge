@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alexander/ontologies/2024/9/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alexander/ontologies/2024/9/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/alexander/ontologies/2024/9/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AnomalyDetection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApplicationType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autoencoder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Configuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConvolutionNeuralNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Framework"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImageProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalLanguageProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NetworkType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeuralNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperatingSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PowerSupply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RAM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecurrnetNeuralNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReinforcementLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpeechRecognition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupervisedLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrainingMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transformer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnsupervisedLearning"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AnomalyDetection"/>
+        <Class IRI="#ApplicationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApplicationType"/>
+        <Class IRI="#NeuralNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autoencoder"/>
+        <Class IRI="#NetworkType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConvolutionNeuralNetwork"/>
+        <Class IRI="#NetworkType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Framework"/>
+        <Class IRI="#OperatingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPU"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hardware"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImageProcessing"/>
+        <Class IRI="#ApplicationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#Framework"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalLanguageProcessing"/>
+        <Class IRI="#ApplicationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetworkType"/>
+        <Class IRI="#NeuralNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperatingSystem"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerSupply"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processor"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RAM"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecurrnetNeuralNetwork"/>
+        <Class IRI="#NetworkType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReinforcementLearning"/>
+        <Class IRI="#TrainingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpeechRecognition"/>
+        <Class IRI="#ApplicationType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupervisedLearning"/>
+        <Class IRI="#TrainingMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrainingMethod"/>
+        <Class IRI="#NeuralNetwork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transformer"/>
+        <Class IRI="#NetworkType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnsupervisedLearning"/>
+        <Class IRI="#TrainingMethod"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
